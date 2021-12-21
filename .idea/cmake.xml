@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="Build/Debug" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-G Ninja -DWEBRTCROOT=$CMakeProjectDir$/../webrtc">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="DEPOT_TOOLS_WIN_TOOLCHAIN" value="0" />
+            <env name="CLANG_VERSION" value="ToT" />
+            <env name="PYTHONIOENCODING" value="UTF-8" />
+            <env name="GCLIENT_PY3" value="1" />
+            <env name="WINDOWSSDKDIR" value="C:\Program Files (x86)\Windows Kits\10" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+      <configuration PROFILE_NAME="Release" ENABLED="true" GENERATION_DIR="Build/Release" CONFIG_NAME="Release" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-G Ninja -DWEBRTCROOT=$CMakeProjectDir$/../webrtc">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="DEPOT_TOOLS_WIN_TOOLCHAIN" value="0" />
+            <env name="CLANG_VERSION" value="ToT" />
+            <env name="PYTHONIOENCODING" value="UTF-8" />
+            <env name="GCLIENT_PY3" value="1" />
+            <env name="WINDOWSSDKDIR" value="C:\Program Files (x86)\Windows Kits\10" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+    </configurations>
+  </component>
+</project>
